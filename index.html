@@ -10,23 +10,54 @@
     <meta name="author" content="" />
 
     <title>Store - Your Best Marketplace</title>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link href="style/main.css" rel="stylesheet" />
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light navbar-store fixed-top navbar-fixed-top"
-    data-aos="fade-down">
-    <div class="container">
-      <a href="/index.html" class="navbar-brand">
-        <img src="/images/logo.svg" alt="">
-      </a>
-    </div>
+
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-store fixed-top navbar-fixed-top">
+      <div class="container">
+        <a href="/index.html" class="navbar-brand">
+          <img src="/images/logo.svg" alt="">
+        </a>
+        <button 
+        class="navbar-toggler" 
+        type="button"
+         data-toggle="collapse"
+         data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/categories.html">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Rewards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-success nav-link pc-4 text-white" href="/login.html">Login</a>
+          </li>
+       
+        </ul>
+      </div>
     </nav>
+  </div>
     <!-- Bootstrap core JavaScript -->
     <script src="/vendor/jquery/jquery.slim.min.js"></script>
-    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
